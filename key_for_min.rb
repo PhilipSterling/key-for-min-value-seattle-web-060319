@@ -7,10 +7,10 @@ def key_for_min_value(name_hash)
   if hash.length = 0
     return nil
   else
-    array = birthday_kids.collect do |key, value|
+    array = birthday_kids.each do |key, value|
       if (value < lowest_value)
         lowest_value = value
-        key = stored_key
+        stored_key = key
       end
     end
   end
