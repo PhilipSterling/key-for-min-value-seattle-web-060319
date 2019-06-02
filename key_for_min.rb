@@ -5,7 +5,7 @@ def key_for_min_value(name_hash)
   if hash.length = 0
     return nil
   else
-    birthday_kids.each do |key, value|
+    birthday_kids.collect do |key, value|
       
     end
   end
