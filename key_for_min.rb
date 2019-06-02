@@ -7,7 +7,7 @@ def key_for_min_value(name_hash)
   if (name_hash.empty?)
     return nil
   else
-    array = birthday_kids.each do |key, value|
+    array = name_hash.each do |key, value|
       if (value < lowest_value)
         lowest_value = value
         stored_key = key
