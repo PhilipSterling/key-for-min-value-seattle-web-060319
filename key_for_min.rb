@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   lowest_value = 100000
-  stored_key
+  stored_key = nil
   if hash.length = 0
     return nil
   else
